@@ -25851,7 +25851,7 @@
         lt = function (c, e) {
           var n =
             ((c.$config && c.$config.http) || {}).browserBaseURL ||
-            "https://tw.pycon.org/temp";
+            "https://tw.pycon.org/prs";
           var t = ot({ retry: 0, timeout: !1, prefixUrl: n, headers: {} });
           (c.$http = t), e("http", t);
         },
